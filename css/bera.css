@@ -1,0 +1,147 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    font-family: 'Montserrat';
+    font-weight: normal;
+    font-style: normal;
+    font-size: 14px;
+    color: #5a5a5a;
+    
+  }
+  
+  
+  .headercontainer {
+    width: 100%;
+    min-height: 100vh;
+    overflow: hidden;
+    background: rgba(255, 255, 255, 0.8) none repeat scroll 0 0;
+    left: 0;
+    top: 0;
+   
+  }
+  .headerrow {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    list-style: none;
+    text-decoration: none;
+    box-shadow: 0 1px 3px rgb(50 50 50 / 40%);
+    /*  */
+    
+  }
+  .logo {
+    width: 50px;
+    cursor: pointer;
+    margin: 20px 0;
+  }
+  nav{
+    flex: 1;
+    text-align: right;
+  
+  }
+  nav ul li {
+    list-style: none;
+    display: inline-block;
+    margin-right: 20px;
+  }
+  nav ul li a {
+    text-decoration: none;
+    color: black;
+    font-size: 14px;
+  }
+  nav ul li a:haver {
+    color: #5a5a5a;
+  }
+  .social {
+    flex: 1;
+    text-align: right;
+  
+  }
+  .social ul li {
+    list-style: none;
+    display: inline-block;
+    margin-right: 20px;
+  }
+  .social ul li a {
+    text-decoration: none;
+    color: black;
+    font-size: 14px;
+  }
+  .footer {
+    padding: 30px 0;
+    margin-bottom: 0;
+  }
+  
+  /* blog */
+  
+  .main{
+    margin: 0;
+    background-color: rgb(201, 193, 193);
+  }
+  
+   @media (min-width: 992px)
+  {
+  .card {
+      width: 33.33333333%;
+  }}
+   
+  .card{
+    width: 30%;
+    display: inline-block;
+    border-radius: 1px; 
+    padding: 30px;
+  }
+   
+  .image img{
+  width: 100%;
+  border-top-right-radius: 5px;
+  border-top-left-radius: 5px;
+  }
+   
+  .title{
+  text-align: center;
+  padding: 10px;
+  }
+   
+  h1{
+    font-size: 20px;
+  }
+  .des{
+    padding: 3px;
+    text-align: center;
+    padding-top: 10px;
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+   }
+   .myblog {
+     text-align: center;
+     padding-top: 20px;
+   }
+
+  .beratext {
+      
+     
+  }
+  .container1 {
+    
+    
+
+      
+}
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
